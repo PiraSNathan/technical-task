@@ -12,7 +12,7 @@ const ListView: React.FC<ListViewProps> = ({ data }) => {
   return (
     <ul className="listView">
       {data.map((item, index) => (
-        <li tabIndex={index} key={index}>
+        <li tabIndex={0} key={index}>
           <Card
             title={item.title}
             description={item.description}
@@ -21,6 +21,7 @@ const ListView: React.FC<ListViewProps> = ({ data }) => {
             imagePath={item.imagePath}
             isGridView={false}
           />
+          <hr className="divider" />
         </li>
       ))}
     </ul>

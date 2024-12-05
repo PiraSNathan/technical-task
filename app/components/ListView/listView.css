@@ -7,12 +7,18 @@
   gap: 16px;
 }
 
+.divider {
+  border: none;
+  height: 1px;
+  color: lightgray;
+  background-color: lightgray;
+}
+
 @media (max-width: 600px) {
   .listView {
     grid-template-columns: 1fr;
   }
-  .listView .card {
-    flex-direction: column;
-    gap: 4px;
+  .divider {
+    display: none;
   }
 }
