@@ -9,7 +9,9 @@ Please make sure to have the following versions of node as well as npm installed
 
 ## Getting Started
 
-First install all node modules with:
+First clone the repository and then navigate to the \technical-task folder in your terminal.
+
+Then make sure to install all the node packages with the following command:
 
 ```bash
 npm install
