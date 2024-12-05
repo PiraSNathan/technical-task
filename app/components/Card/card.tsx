@@ -8,6 +8,8 @@ interface CardProps {
   district: string;
   tags: string[];
   imagePath: string;
+  // Property to decide whether to diplay whole content of card
+  // side by side for list view or one below the other for grid view.
   isGridView: boolean;
 }
 
@@ -30,17 +32,19 @@ const Card: React.FC<CardProps> = ({
         />
         <span style={{ fontSize: 11 }}>copyright by photograph</span>
       </div>
-      <div className="content-wrapper">
-        <div>
+      <div className="text-wrapper">
+        <div className="text-header">
           <span>{district}</span>
-          <div>
+          <div className="tags">
             {tags.map((tag, index) => (
               <span key={index}>{tag}</span>
             ))}
           </div>
         </div>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <div className="info-wrapper">
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </div>
       </div>
     </div>
   );
