@@ -11,13 +11,19 @@ export default function Home() {
   return (
     <div className="main">
       <h1>Technical Task</h1>
-      <div className="toggle-switch">
+      <div
+        className="toggle-switch"
+        role="switch"
+        aria-checked="true"
+        tabIndex={0}
+      >
         <button
           disabled={isGridView === false}
           onClick={() => setIsGridView(!isGridView)}
           className={
             isGridView === false ? `button-enabled` : `button-disabled`
           }
+          aria-pressed={isGridView === false}
         >
           List
         </button>
@@ -25,6 +31,7 @@ export default function Home() {
           disabled={isGridView === true}
           onClick={() => setIsGridView(!isGridView)}
           className={isGridView ? `button-enabled` : `button-disabled`}
+          aria-pressed={isGridView === true}
         >
           Grid
         </button>
