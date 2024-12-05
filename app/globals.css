@@ -59,14 +59,10 @@ button {
   background-color: black;
   color: white;
   border: 1px solid black;
-  width: 100px;
-  padding: 1px;
 }
 
 .button-enabled {
   background-color: white;
   color: black;
   border: 1px solid black;
-  width: 100px;
-  padding: 1px;
 }
