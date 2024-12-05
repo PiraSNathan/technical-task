@@ -10,7 +10,6 @@ export default function Home() {
   const [isGridView, setIsGridView] = useState<boolean>(true);
   return (
     <div className="main">
-      <h1>Technical Task</h1>
       <div
         className="toggle-switch"
         role="switch"
