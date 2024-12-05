@@ -11,6 +11,7 @@ interface CardProps {
   // Property to decide whether to diplay whole content of card
   // side by side for list view or one below the other for grid view.
   isGridView: boolean;
+  // Duration of the project
   periodTime: number;
   daysLeft: number;
 }
@@ -77,7 +78,7 @@ const Card: React.FC<CardProps> = ({
               }}
             ></div>
           </div>
-          <span>Noch {periodTime - daysLeft} Tage</span>
+          <span>{periodTime - daysLeft} days left</span>
         </div>
       </div>
     </div>
