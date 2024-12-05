@@ -1,0 +1,18 @@
+.listView {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 800px;
+  list-style-type: none;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .listView {
+    grid-template-columns: 1fr;
+  }
+  .listView .card {
+    flex-direction: column;
+    gap: 4px;
+  }
+}

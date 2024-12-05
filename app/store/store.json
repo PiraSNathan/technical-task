@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Titel of an external Project - Starting in future",
+    "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
+    "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "district": "Mitte",
+    "tags": ["tag1", "tag2"]
+  },
+  {
+    "title": "Titel of an external Project - Starting in future",
+    "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
+    "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "district": "Tempelhof",
+    "tags": ["tag1", "tag2"]
+  },
+  {
+    "title": "Titel of an external Project - Starting in future",
+    "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
+    "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "district": "Britz",
+    "tags": ["tag1", "tag2"]
+  },
+  {
+    "title": "Titel of an external Project - Starting in future",
+    "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
+    "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "district": "Mitte",
+    "tags": ["tag1", "tag2"]
+  },
+  {
+    "title": "Titel of an external Project - Starting in future",
+    "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
+    "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "district": "Mitte",
+    "tags": ["tag1", "tag2"]
+  },
+  {
+    "title": "Titel of an external Project - Starting in future",
+    "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
+    "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "district": "Mitte",
+    "tags": ["tag1", "tag2"]
+  }
+]
