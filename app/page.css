@@ -1,3 +1,10 @@
 .main {
   padding: 20px;
 }
+
+.toggle-switch {
+  display: flex;
+  justify-content: flex-end;
+  align-content: end;
+  margin-bottom: 12px;
+}

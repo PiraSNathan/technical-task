@@ -1,9 +1,35 @@
+"use client";
+
+import { useState } from "react";
+import GridView from "./components/GridView/gridView";
+import ListView from "./components/ListView/listView";
 import "./page.css";
+import data from "./store/store.json";
 
 export default function Home() {
+  const [isGridView, setIsGridView] = useState<boolean>(true);
   return (
     <div className="main">
       <h1>Technical Task</h1>
+      <div className="toggle-switch">
+        <button
+          disabled={isGridView === false}
+          onClick={() => setIsGridView(!isGridView)}
+          className={
+            isGridView === false ? `button-enabled` : `button-disabled`
+          }
+        >
+          List
+        </button>
+        <button
+          disabled={isGridView === true}
+          onClick={() => setIsGridView(!isGridView)}
+          className={isGridView ? `button-enabled` : `button-disabled`}
+        >
+          Grid
+        </button>
+      </div>
+      {isGridView ? <GridView data={data} /> : <ListView data={data} />}
     </div>
   );
 }
