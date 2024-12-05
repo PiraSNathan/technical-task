@@ -18,6 +18,8 @@ const GridView: React.FC<GridViewProps> = ({ data }) => {
             district={item.district}
             tags={item.tags}
             imagePath={item.imagePath}
+            periodTime={item.periodTime}
+            daysLeft={item.daysLeft}
             isGridView={true}
           />
         </li>

@@ -4,4 +4,6 @@ export interface DataEntry {
   district: string;
   imagePath: string;
   tags: string[];
+  periodTime: number;
+  daysLeft: number;
 }

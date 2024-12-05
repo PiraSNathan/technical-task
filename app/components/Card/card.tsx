@@ -11,6 +11,8 @@ interface CardProps {
   // Property to decide whether to diplay whole content of card
   // side by side for list view or one below the other for grid view.
   isGridView: boolean;
+  periodTime: number;
+  daysLeft: number;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -20,7 +22,11 @@ const Card: React.FC<CardProps> = ({
   tags,
   imagePath,
   isGridView,
+  periodTime,
+  daysLeft,
 }) => {
+  const progress = String((daysLeft / periodTime) * 100) + "%";
+
   return (
     <div className={isGridView ? "card-grid" : "card-list"}>
       <div className="image-wrapper">
@@ -44,6 +50,34 @@ const Card: React.FC<CardProps> = ({
         <div className="info-wrapper">
           <h2>{title}</h2>
           <p>{description}</p>
+        </div>
+        {/* progress bar */}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: 2,
+          }}
+        >
+          <div style={{ position: "relative" }}>
+            <div
+              style={{
+                height: "2px",
+                width: "100%",
+                backgroundColor: "grey",
+                position: "absolute",
+              }}
+            ></div>
+            <div
+              style={{
+                height: "2px",
+                width: progress,
+                backgroundColor: "blue",
+                position: "relative",
+              }}
+            ></div>
+          </div>
+          <span>Noch {periodTime - daysLeft} Tage</span>
         </div>
       </div>
     </div>

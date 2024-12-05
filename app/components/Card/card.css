@@ -62,7 +62,7 @@
   flex: 2;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-evenly;
   font-size: 14px;
   gap: 12px;
 }

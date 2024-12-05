@@ -19,6 +19,8 @@ const ListView: React.FC<ListViewProps> = ({ data }) => {
             district={item.district}
             tags={item.tags}
             imagePath={item.imagePath}
+            periodTime={item.periodTime}
+            daysLeft={item.daysLeft}
             isGridView={false}
           />
           <hr className="divider" />

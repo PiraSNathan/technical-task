@@ -4,48 +4,62 @@
     "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
     "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "district": "Mitte",
-    "tags": ["Urban development", "Sustainability"]
+    "tags": ["Urban development", "Sustainability"],
+    "periodTime": 100,
+    "daysLeft": 10
   },
   {
     "title": "Titel of an external Project - Starting in future",
     "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
     "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "district": "Tempelhof",
-    "tags": ["Urban development", "Sustainability"]
+    "tags": ["Urban development", "Sustainability"],
+    "periodTime": 100,
+    "daysLeft": 90
   },
   {
     "title": "Titel of an external Project - Starting in future",
     "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
     "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "district": "Britz",
-    "tags": ["Urban development", "Sustainability"]
+    "tags": ["Urban development", "Sustainability"],
+    "periodTime": 100,
+    "daysLeft": 10
   },
   {
     "title": "Titel of an external Project - Starting in future",
     "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
     "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "district": "Mitte",
-    "tags": ["Urban development", "Sustainability"]
+    "tags": ["Urban development", "Sustainability"],
+    "periodTime": 500,
+    "daysLeft": 60
   },
   {
     "title": "Titel of an external Project - Starting in future",
     "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
     "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "district": "Mitte",
-    "tags": ["Urban development", "Sustainability"]
+    "tags": ["Urban development", "Sustainability"],
+    "periodTime": 400,
+    "daysLeft": 200
   },
   {
     "title": "Titel of an external Project - Starting in future",
     "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
     "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "district": "Mitte",
-    "tags": ["Urban development", "Sustainability"]
+    "tags": ["Urban development", "Sustainability"],
+    "periodTime": 24,
+    "daysLeft": 6
   },
   {
     "title": "Titel of an external Project - Starting in future",
     "description": "Berlin Onsight Engagement: Empowering citizen to shape their citys future via digital plattform. Fostering dialogue, collaboration, and civic action for inclusivity.",
     "imagePath": "https://images.unsplash.com/photo-1698610654585-45d30dc86add?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "district": "Mitte",
-    "tags": ["Urban development", "Sustainability"]
+    "tags": ["Urban development", "Sustainability"],
+    "periodTime": 240,
+    "daysLeft": 80
   }
 ]
