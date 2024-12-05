@@ -11,7 +11,7 @@ const GridView: React.FC<GridViewProps> = ({ data }) => {
   return (
     <ul className="gridView">
       {data.map((item, index) => (
-        <li key={index}>
+        <li tabIndex={0} key={index}>
           <Card
             title={item.title}
             description={item.description}
